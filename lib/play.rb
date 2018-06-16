@@ -37,13 +37,8 @@ end
 
 # Define your play method below
 def play(board)
-turn(board)
-turn(board)
-turn(board)
-turn(board)
-turn(board)
-turn(board)
-turn(board)
-turn(board)
-turn(board)
+counter = 1
+while counter < 10
+  puts turn(board)
+end
 end
